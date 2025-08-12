@@ -4,9 +4,15 @@ A **backend-driven visitor management solution** designed for institutions and o
 
 ---
 
+## 💡 Project Background
+
+This visitor management system was developed specifically for my college to manage **parents as visitors** securely and efficiently. After building the solution, I formally proposed it to the college administration (Dean’s office) for adoption, demonstrating its potential to enhance institutional safety and streamline visitor approvals.
+
+---
+
 ## 💼 About the Project
 
-This backend service facilitates secure and scalable visitor management by enabling staff and wardens to create and approve visitor requests in real-time. It incorporates strong security practices, email notifications, and performance optimizations to ensure robustness and responsiveness.
+This backend service facilitates secure and scalable visitor management, focusing on **handling parents as visitors** by enabling staff and wardens to create and approve visitor requests in real-time. It incorporates strong security practices, email notifications, and performance optimizations to ensure robustness and responsiveness.
 
 ---
 
