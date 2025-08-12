@@ -1,47 +1,57 @@
 # Secure Access & Visitor Approval Backend
 
-A **backend-driven visitor management solution** built to handle **secure authentication**, **role-based permissions**, and **real-time approvals** for institutions and organizations.
+A **backend-driven visitor management solution** designed for institutions and organizations to manage secure authentication, role-based permissions, real-time visitor approvals, and email notifications efficiently.
 
 ---
 
 ## 💼 About the Project
-This backend service was designed to manage visitor approvals securely and efficiently.  
-It supports **staff** (guards) and **warden** roles, handles **real-time communication**, and enforces strong **security measures**.
+
+This backend service facilitates secure and scalable visitor management by enabling staff and wardens to create and approve visitor requests in real-time. It incorporates strong security practices, email notifications, and performance optimizations to ensure robustness and responsiveness.
 
 ---
 
 ## 🚀 Core Features
+
 - **Role-Based Access Control (RBAC)**
-  - **Staff** can create visitor requests.
-  - **Wardens** can approve/reject requests.
-  
+  - Staff (guards) can create visitor requests.
+  - Wardens can approve or reject visitor requests.
+
 - **Security-First Approach**
-  - JWT authentication with refresh tokens.
-  - Rate limiting to prevent brute-force attacks.
-  - Protection against **SQL Injection**, **XSS**, and **CSRF** attacks.
-  
+  - JWT authentication with refresh tokens for secure sessions.
+  - Rate limiting to protect against brute-force attacks.
+  - Safeguards against SQL Injection, Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF).
+
 - **Real-Time Updates**
-  - Instant visitor approval/rejection notifications via **Socket.IO**.
-  
+  - Instant visitor approval/rejection notifications using Socket.IO.
+
+- **Email Notifications**
+  - Automatic email alerts for visitor approvals/rejections using **Nodemailer**.
+
 - **Performance Optimization**
-  - **Redis caching** for frequent queries.
-  
+  - Redis caching for frequently accessed data to reduce database load and improve response times.
+
 - **REST API Architecture**
-  - Modular, scalable API endpoints for easy integration.
+  - Modular, scalable endpoints designed for easy integration and maintenance.
 
 ---
 
 ## 🛠 Tech Stack
-- **Backend:** Node.js, Express.js
-- **Database:** MySQL, Redis (cache)
-- **Security:** JWT, Helmet.js, Rate Limiter
-- **Real-Time:** Socket.IO
+
+| Category       | Technologies                       |
+| -------------- | -------------------------------- |
+| Backend        | Node.js, Express.js               |
+| Database       | MySQL, Redis (for caching)        |
+| Authentication | JWT (JSON Web Tokens)             |
+| Security       | Helmet.js, Rate Limiter Middleware |
+| Real-Time      | Socket.IO                        |
+| Email          | Nodemailer                      |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/secure-access-backend.git
-   cd secure-access-backend
+   git clone https://github.com/deepak30012004/Visman.git
+   cd Visman
