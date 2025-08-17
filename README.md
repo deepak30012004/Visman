@@ -53,6 +53,10 @@ This backend service facilitates secure and scalable visitor management, focusin
 | Email          | Nodemailer                      |
 
 ---
+<img width="2555" height="1397" alt="image" src="https://github.com/user-attachments/assets/5dc91832-9ef9-4ec7-9816-8c691b098ae7" />
+<img width="2553" height="1497" alt="image" src="https://github.com/user-attachments/assets/1ca64e17-aada-4b1c-aba6-44f4acc2297f" />
+
+
 
 ## ⚙️ Installation & Setup
 
